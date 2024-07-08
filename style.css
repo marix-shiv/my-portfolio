@@ -748,7 +748,7 @@ section{
         width: calc(100% - 50px); /* Adjust width to fit within the header */
     }
     .navbar a {
-        font-size: 18px;
+        font-size: 15px;
         margin: 0 5px;
         white-space: nowrap; /* Ensure links do not wrap */
     }
