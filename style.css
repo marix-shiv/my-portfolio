@@ -28,7 +28,7 @@ body{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    width: 0%;
+    width: 50%;
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
@@ -366,7 +366,7 @@ section{
     border-right-width: 0px;
     border-top-color: #000;
     top: -10px;
-    right: 0;
+    /* right: 0; */
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
@@ -738,6 +738,7 @@ section{
     .logo {
         font-size: 25px;
         text-align: left;
+        width: 10%;
     }
     .navbar {
         flex-direction: row;
