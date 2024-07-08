@@ -738,7 +738,7 @@ section{
     .logo {
         font-size: 25px;
         text-align: left;
-        width: 10%;
+        width: 20%;
     }
     .navbar {
         flex-direction: row;
