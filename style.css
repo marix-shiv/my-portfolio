@@ -28,7 +28,7 @@ body{
     color: #fff;
     text-decoration: none;
     font-weight: 600;
-    width: 50%;
+    width: 10%;
     cursor: default;
     opacity: 0;
     animation: slideRight 1s ease forwards;
@@ -53,7 +53,7 @@ body{
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: 100vh;
+    /* height: 50vh; */
     background: rgb(4, 4, 30);
     background-size: cover;
     background-position: center;
@@ -731,18 +731,25 @@ section{
         padding: 10px 5%;
         position: relative; /* Ensure header stays in place */
         z-index: 10; /* Make sure header is above other content */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .logo {
         font-size: 25px;
+        text-align: left;
     }
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         padding: 10px 0;
+        width: calc(100% - 50px); /* Adjust width to fit within the header */
     }
     .navbar a {
         font-size: 18px;
-        margin: 10px 0;
+        margin: 0 5px;
+        white-space: nowrap; /* Ensure links do not wrap */
     }
     .home {
         display: flex;
